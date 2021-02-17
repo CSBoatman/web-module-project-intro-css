@@ -140,6 +140,10 @@ header p {
 	font-weight: 550;
 }
 
+footer {
+	background-color: #F9E7DC;
+}
+
 #foot-img img {
 	width: 99vw;
 	height: 40vh;
