@@ -1,0 +1,149 @@
+/*---Import Fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*---Debug Border---*/
+* {
+	/*border: 1px solid red;*/
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+html {
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+	width: 100vw;
+}
+
+h1 {
+	font-family: 'Chelsea Market', sans-serif;
+}
+
+.links {
+	height: 20vh;
+	margin-bottom: 40px;
+}
+
+nav {
+	margin-top: 40px;
+	width: 100vw;
+}
+
+nav a {
+	padding: 15px 30px;
+	width: 180px;
+	margin: 0 80px;
+	font-size: 22px;
+	border-radius: 20px;
+	color: white;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+nav .plan {
+	background-color: #FF764E;
+}
+
+nav .about {
+	background-color: #5ED3EB;
+}
+
+nav .involved {
+	background-color: #FFCD69;
+}
+
+#head-img {
+	width: 30vw;
+	display: inline;
+}
+
+#head-img img {
+	height: 46vh; 
+	width: 23vw;
+	border-radius: 200px;
+}
+
+header {
+	width: 60vw;
+	display: inline-block;
+	line-height: 1.5;
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 2px;
+	padding: 20px 0;
+}
+
+header p {
+	padding: 20px 0;
+}
+
+#open {
+	width: 30vw;
+	margin-left: 22%;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+#first {
+	width: 90vw;
+	padding: 2vh 0;
+	margin: 5vh 5vw;
+	font-size: 26px;
+	background-color: #DDB9A3;
+}
+
+#first p {
+	width: 85vw;
+	margin: 0 2.5vw;
+	color: white;
+	font-weight: 550;
+	margin-bottom: 20px;
+}
+
+#fire div img {
+	width: 10%;
+	height: 10%;
+}
+
+#fire div p{
+	width: 22vw;
+	margin: 0 38vw;
+	margin-bottom: 100px;
+	line-height: 1.25;
+	font-weight: 550;
+}
+
+#reserve div img {
+	width: 10%;
+	height: 10%;
+}
+
+#reserve div p {
+	width: 24vw;
+	margin: 0 37vw;
+	margin-bottom: 100px;
+	line-height: 1.25;
+	font-weight: 550;
+}
+
+footer {
+	background-color: #F9E7DC;
+}
+
+#foot-img img {
+	width: 99vw;
+	height: 40vh;
+	object-fit: cover;
+	object-position: 50% 18%;
+}
+
+.bold {
+	font-weight: bold;
+}
