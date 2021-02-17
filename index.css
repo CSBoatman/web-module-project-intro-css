@@ -1,6 +1,6 @@
 /*---CSS Reset Start---*/
 
-/*Input Here*/
+/*Input CSS Reset Here*/
 
 /*---CSS Reset End---*/
 
@@ -19,9 +19,81 @@
 
 html {
 	font-family: 'Roboto Mono', sans-serif;
-  	font-size:  62.5%;
+}
+
+body {
+	width: 100vw;
 }
 
 h1 {
 	font-family: 'Chelsea Market', sans-serif;
 }
+
+.links {
+	height: 20vh;
+	margin-bottom: 40px;
+}
+
+nav {
+	margin-top: 40px;
+	width: 100vw;
+}
+
+nav a {
+	padding: 15px 30px;
+	width: 180px;
+	margin: 0 80px;
+	font-size: 22px;
+	border-radius: 20px;
+	color: white;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+nav .plan {
+	background-color: #FF764E;
+}
+
+nav .about {
+	background-color: #5ED3EB;
+}
+
+nav .involved {
+	background-color: #FFCD69;
+}
+
+#head-img {
+	width: 30vw;
+	display: inline;
+}
+
+#head-img img {
+	height: 46vh; 
+	width: 23vw;
+	border-radius: 200px;
+}
+
+header {
+	width: 60vw;
+	display: inline-block;
+	line-height: 1.5;
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 2px;
+	padding: 20px 0;
+}
+
+header p {
+	padding: 20px 0;
+}
+
+#open {
+	width: 30vw;
+	margin-left: 22%;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
