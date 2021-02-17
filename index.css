@@ -119,9 +119,25 @@ header p {
 	height: 10%;
 }
 
+#fire div p{
+	width: 22vw;
+	margin: 0 38vw;
+	margin-bottom: 100px;
+	line-height: 1.25;
+	font-weight: 550;
+}
+
 #reserve div img {
 	width: 10%;
 	height: 10%;
+}
+
+#reserve div p {
+	width: 24vw;
+	margin: 0 37vw;
+	margin-bottom: 100px;
+	line-height: 1.25;
+	font-weight: 550;
 }
 
 #foot-img img {
@@ -129,4 +145,8 @@ header p {
 	height: 40vh;
 	object-fit: cover;
 	object-position: 50% 18%;
+}
+
+.bold {
+	font-weight: bold;
 }
