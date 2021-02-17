@@ -1,16 +1,10 @@
-/*---CSS Reset Start---*/
-
-/*Input CSS Reset Here*/
-
-/*---CSS Reset End---*/
-
 /*---Import Fonts---*/
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /*---Debug Border---*/
 * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
@@ -99,9 +93,8 @@ header p {
 
 #first {
 	width: 90vw;
-	padding-top: 20px;
-	margin: 0 5vw;
-	margin-top: 5vh;
+	padding: 2vh 0;
+	margin: 5vh 5vw;
 	font-size: 26px;
 	background-color: #DDB9A3;
 }
