@@ -97,3 +97,36 @@ header p {
 	margin-bottom: 20px;
 }
 
+#first {
+	width: 90vw;
+	padding-top: 20px;
+	margin: 0 5vw;
+	margin-top: 5vh;
+	font-size: 26px;
+	background-color: #DDB9A3;
+}
+
+#first p {
+	width: 85vw;
+	margin: 0 2.5vw;
+	color: white;
+	font-weight: 550;
+	margin-bottom: 20px;
+}
+
+#fire div img {
+	width: 10%;
+	height: 10%;
+}
+
+#reserve div img {
+	width: 10%;
+	height: 10%;
+}
+
+#foot-img img {
+	width: 99vw;
+	height: 40vh;
+	object-fit: cover;
+	object-position: 50% 18%;
+}
